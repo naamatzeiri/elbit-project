@@ -1,4 +1,4 @@
-## Monitor Operating System's CPU and Send Alert
+# Monitor Operating System's CPU and Send Alert
 
 ## Prerequisites
 
