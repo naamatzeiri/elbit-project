@@ -1,0 +1,9 @@
+[Unit]
+Description=CPU Usage Monitor Service
+
+[Service]
+ExecStart=/usr/bin/python3 ./cpu_monitor.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
