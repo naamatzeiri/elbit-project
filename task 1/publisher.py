@@ -1,5 +1,5 @@
 from confluent_kafka import Producer
-import time
+# import time
 
 def acked(err, msg):
     if err is not None:
@@ -10,7 +10,7 @@ def acked(err, msg):
 p = Producer({'bootstrap.servers': 'localhost:9092'})
 
 for i in range(10):
-    p.produce('ABC', key=str(i), value=f'Message {i}', callback=acked)
+    p.produce('ABC', key=str(i), value=f'Message {i+1}', callback=acked)
     p.poll(1)
 
 p.flush()
