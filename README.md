@@ -17,6 +17,6 @@
 
 ## Running the Program
 
-- Enter cmd (or vscode terminal) and write the following command:
+- Enter cmd (or vscode terminal) and write the following commands:
     - python producer.py
     - python consumer.py
