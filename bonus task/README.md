@@ -8,8 +8,8 @@
 
 - Streaming Applications: Broadcasting multimedia content to multiple viewers simultaneously.
 - Software Updates: Distributing patches or updates to multiple devices or servers.
-- Real-time Data Feeds: Disseminating financial data, stock quotes, or sensor readings to multiple subscribers.
-- Collaborative Applications: Facilitating group communication in online gaming or virtual environments.
+- Real-time Data Feeds: Publish financial data, stock quotes, or sensor readings to multiple subscribers.
+- Collaborative Applications: Ensuring real-time group communication in online gaming or virtual environments.
 
 ## Challenges of Transporting Multicast Messages Between Networks
 
