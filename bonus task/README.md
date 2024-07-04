@@ -13,7 +13,7 @@
 
 ## Challenges of Transporting Multicast Messages Between Networks
 
-- Transporting multicast messages across network boundaries poses challenges due to differing network configurations and lack of multicast support in some networks.
+- In transporting multicast messages across network boundaries rise a few challenges due to differing network configurations and lack of multicast support in some networks.
 - Solutions and techniques have been developed to overcome these challenges:
     - Tunneling: Encapsulating a multicast messages into unicast packets for transport over non-multicast-enabled networks using technologies like GRE.
     - Multicast over MPLS: Using MPLS to create VPNs over service provider networks, supporting multicast traffic segregation.
