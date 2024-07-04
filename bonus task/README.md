@@ -16,7 +16,7 @@
 - In transporting multicast messages across network boundaries rise a few challenges due to differing network configurations and lack of multicast support in some networks.
 - Solutions and techniques have been developed to overcome these challenges:
     - Tunneling: Encapsulating a multicast messages into unicast packets for transport over non-multicast-enabled networks using technologies like GRE.
-    - Multicast over MPLS: Using MPLS to create VPNs over service provider networks, supporting multicast traffic segregation.
+    - Multicast over MPLS: Using MPLS to create VPNs over service provider networks, supporting multicast traffic.
     - Protocol Independent Multicast (PIM): Routing protocols like PIM-SM for large networks and PIM-DM for smaller networks manage multicast routing efficiently.
     - Multicast Source Discovery Protocol (MSDP): Facilitating multicast source information exchange across different domains or Autonomous Systems (ASes - a network or group of networks managed by a single entity).
 
